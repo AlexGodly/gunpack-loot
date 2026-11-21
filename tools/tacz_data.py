@@ -52,6 +52,16 @@ def build(src_dir, new_format):
         "scoreboard players set #mode tacz_loot_mode 0\n" + say("TACZ: Loot mode set to Default (tiered loot)") + "\n")
     files[f"data/tacz_loot/{fn}/mode/equal.mcfunction"] = (
         "scoreboard players set #mode tacz_loot_mode 1\n" + say("TACZ: Loot mode set to Equal (same chance in every chest)") + "\n")
+    files[f"data/tacz_loot/{fn}/help.mcfunction"] = "\n".join([
+        say("TACZ: Loot data pack commands:"),
+        'tellraw @s {"text":"/function tacz_loot:mode/default  - tiered loot (better guns in harder structures)","color":"gray"}',
+        'tellraw @s {"text":"/function tacz_loot:mode/equal  - every gun, ammo and attachment has the same chance in every chest","color":"gray"}',
+        'tellraw @s {"text":"/function tacz_loot:status  - show the current mode","color":"gray"}',
+        'tellraw @s {"text":"Gun pack guns need the mod version of TACZ: Loot.","color":"gray"}']) + "\n"
+    files[f"data/tacz_loot/{fn}/status.mcfunction"] = (
+        'execute unless score #mode tacz_loot_mode matches 1.. run ' + say("TACZ: Loot mode: Default (tiered loot)") + "\n"
+        'execute if score #mode tacz_loot_mode matches 1 run ' + say("TACZ: Loot mode: Equal (same chance in every chest)") + "\n"
+        'execute if score #mode tacz_loot_mode matches 2 run ' + say("TACZ: Loot mode is set by the mod: use /taczloot") + "\n")
     files[f"data/minecraft/tags/{fn}/load.json"] = {"values": ["tacz_loot:load"]}
     return files
 

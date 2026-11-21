@@ -1,0 +1,10 @@
+{
+  "tacz_loot.configuration.title": "TACZ: Loot",
+  "tacz_loot.configuration.lootMode": "Loot mode",
+  "tacz_loot.configuration.lootMode.tooltip": "DEFAULT: better guns in harder structures, plus gun pack guns. EQUAL: every gun, ammo and attachment has the same chance in every chest.",
+  "tacz_loot.configuration.gunPackChance": "Gun pack chance (Default mode)",
+  "tacz_loot.configuration.gunPackAmmo": "Ammo with gun pack guns",
+  "tacz_loot.configuration.equalChance": "Chest chance (Equal mode)",
+  "tacz_loot.configuration.equalMaxItems": "Most items per chest (Equal mode)",
+  "tacz_loot.configuration.excludedPacks": "Excluded gun packs"
+}

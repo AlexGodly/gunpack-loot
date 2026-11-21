@@ -22,7 +22,12 @@ sourceSets {
     }
 }
 
+repositories {
+    maven { url = 'https://maven.shedaniel.me/' }
+}
+
 dependencies {
+    compileOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:11.1.136")
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 }
 
