@@ -38,7 +38,8 @@ jobs:
                   open(f"/tmp/pb/{l}-{v['gv'][-1]}.jar", "wb").write(get(v["file"]))
           PY
           for j in /tmp/pb/*.jar; do echo "== $j"; unzip -l "$j" | grep -iE "item/GunItem|item/AmmoItem|item/AttachmentItem|ItemRegistry|api/" | head -20 || true; done > data-src/pointblank-classes.txt
-          for j in /tmp/pb/*.jar; do mkdir -p /tmp/x && cd /tmp/x && rm -rf * && unzip -q -o "$j" 'mod/pointblank/item/GunItem.class' 'mod/pointblank/registry/ItemRegistry.class' 2>/dev/null || true; cd - >/dev/null; echo "== $j" >> data-src/pointblank-javap.txt; javap -p -cp /tmp/x mod.pointblank.item.GunItem 2>/dev/null | head -60 >> data-src/pointblank-javap.txt; javap -p -cp /tmp/x mod.pointblank.registry.ItemRegistry 2>/dev/null | grep -iE "static|public" | head -40 >> data-src/pointblank-javap.txt || true; done
+          rm -f data-src/pointblank-javap.txt
+          for j in /tmp/pb/forge-1.20.1.jar /tmp/pb/neoforge-26.1.2.jar /tmp/pb/fabric-26.1.2.jar; do echo "== $j" >> data-src/pointblank-javap.txt; javap -p -cp "$j" com.vicmatskiv.pointblank.item.GunItem com.vicmatskiv.pointblank.item.AmmoItem com.vicmatskiv.pointblank.item.AttachmentItem 2>&1 | grep -iE "class |ammo|public static|getName|getId|compatible" | head -80 >> data-src/pointblank-javap.txt; done
           git config user.name "Alex Godly"
           git config user.email "AlexGodly@users.noreply.github.com"
           git add data-src
