@@ -1,0 +1,279 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo357",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo50ae",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo68",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo762x51",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo338lapua",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo50bmg",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mk14ebr",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/sl8",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m249",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/l96a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/c14",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/wa2000",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mk48",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/aa12",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/lamg",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/gm6lynx",
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m134minigun",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/motor",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m32mgl",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/xm29",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/at4",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/smaw",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/at4_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/smaw_rocket",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/javelin",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ballista",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/javelin_rocket",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 2.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ]
+    }
+  ]
+}

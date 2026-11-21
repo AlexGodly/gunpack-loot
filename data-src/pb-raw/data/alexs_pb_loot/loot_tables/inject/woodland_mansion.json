@@ -1,0 +1,246 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo357",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo50ae",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo68",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo762x51",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 6.0,
+                "max": 14.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo338lapua",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo50bmg",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m4a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ak47",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ak74",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m16a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/star15",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/g36c",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/scarl",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/hk416",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/aug",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ar57",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/g3",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mk14ebr",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/sl8",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m249",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/l96a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/c14",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/wa2000",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mk48",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/aa12",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/lamg",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/gm6lynx",
+          "weight": 2
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    }
+  ]
+}

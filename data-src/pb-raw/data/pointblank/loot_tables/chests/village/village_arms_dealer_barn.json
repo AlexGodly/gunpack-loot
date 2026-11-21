@@ -1,0 +1,513 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo9mm",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 20.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo45acp",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 20.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo556",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 20.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo762",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 20.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo12gauge",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 20.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo545",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo57",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ammo46",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/gunmetal_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/guninternals",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/processor",
+          "weight": 4
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/foregrip",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/shortgrip",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/cantedrail",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/aimpoint",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/holographic",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/operatorreflex",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/smg_muzzlebrake",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ar_muzzlebrake",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/smg_suppressor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ar_suppressor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/acog",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/heragrip",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/glock17",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m9",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m1911a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/p30l",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mk23",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/deserteagle",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/rhino",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/glock18",
+          "weight": 4
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.6
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/tmp",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mp5",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ump45",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/mp7",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/p90",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/vector",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m4a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ak47",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ak74",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/m16a1",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/star15",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/g36c",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/scarl",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/hk416",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/aug",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/ar57",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "alexs_pb_loot:item/g3",
+          "weight": 5
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 4.0
+      },
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 4.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 6.0
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "pointblank:chests/village/village_arms_dealer_barn"
+}

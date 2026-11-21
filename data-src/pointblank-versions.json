@@ -1,0 +1,598 @@
+[
+ {
+  "v": "2.2.0",
+  "gv": [
+   "26.1.2"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/KSJXZ5GE/pointblank-fabric-26.1.2-2.2.0.jar"
+ },
+ {
+  "v": "2.2.0",
+  "gv": [
+   "26.1.2"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/XAvbl4Gc/pointblank-neoforge-26.1.2-2.2.0.jar"
+ },
+ {
+  "v": "2.2.0",
+  "gv": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/7FaixPLu/pointblank-fabric-1.21-2.2.0.jar"
+ },
+ {
+  "v": "2.2.0",
+  "gv": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/7jPye7PA/pointblank-neoforge-1.21-2.2.0.jar"
+ },
+ {
+  "v": "2.2.0",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/d1YyBgcz/pointblank-forge-1.20.1-2.2.0.jar"
+ },
+ {
+  "v": "1.12.1",
+  "gv": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/WNmKa22J/pointblank-fabric-1.21-1.12.1.jar"
+ },
+ {
+  "v": "1.12.1",
+  "gv": [
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/X6N4idS3/pointblank-neoforge-1.21-1.12.1.jar"
+ },
+ {
+  "v": "1.12.1",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/PCCdUQHj/pointblank-forge-1.20.1-1.12.1.jar"
+ },
+ {
+  "v": "2.0.1",
+  "gv": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/IAoIKBq2/pointblank-neoforge-1.21.11-2.0.1.jar"
+ },
+ {
+  "v": "2.0.1",
+  "gv": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/96kcubpx/pointblank-fabric-1.21.11-2.0.1.jar"
+ },
+ {
+  "v": "2.0",
+  "gv": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/p92D7hU3/pointblank-neoforge-1.21.11-2.0.jar"
+ },
+ {
+  "v": "2.0",
+  "gv": [
+   "1.21.11"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/BOR7UWMa/pointblank-fabric-1.21.11-2.0.jar"
+ },
+ {
+  "v": "1.11.1",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/8NU5xCMU/pointblank-forge-1.21-1.11.1.jar"
+ },
+ {
+  "v": "1.11.1",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/E7JIkQhi/pointblank-neoforge-1.21-1.11.1.jar"
+ },
+ {
+  "v": "1.11.1",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/pkmEVhfx/pointblank-fabric-1.21-1.11.1.jar"
+ },
+ {
+  "v": "1.11.1",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/YSzjIQd7/pointblank-fabric-1.20.1-1.11.1.jar"
+ },
+ {
+  "v": "1.11.1",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/IKvr1xtC/pointblank-forge-1.20.1-1.11.1.jar"
+ },
+ {
+  "v": "1.10.0",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/rJ6uNgC0/pointblank-neoforge-1.21-1.10.0.jar"
+ },
+ {
+  "v": "1.10.0",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/yypHWp6W/pointblank-forge-1.21-1.10.0.jar"
+ },
+ {
+  "v": "1.10.0",
+  "gv": [
+   "1.21",
+   "1.21.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/UlykgOjz/pointblank-fabric-1.21-1.10.0.jar"
+ },
+ {
+  "v": "1.10.0",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/av7wlt07/pointblank-fabric-1.20.1-1.10.0.jar"
+ },
+ {
+  "v": "1.10.0",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/bnUA6YZT/pointblank-forge-1.20.1-1.10.0.jar"
+ },
+ {
+  "v": "1.9.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ks31PvUj/pointblank-neoforge-1.21-1.9.6.jar"
+ },
+ {
+  "v": "1.9.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/590gE9Xi/pointblank-fabric-1.21-1.9.6.jar"
+ },
+ {
+  "v": "1.9.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/Wrtpn08m/pointblank-forge-1.21-1.9.6.jar"
+ },
+ {
+  "v": "1.9.6",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/a4rjdGRx/pointblank-fabric-1.20.1-1.9.6.jar"
+ },
+ {
+  "v": "1.9.6",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ODpVyQTR/pointblank-forge-1.20.1-1.9.6.jar"
+ },
+ {
+  "v": "1.7.8",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/6q88Tw2K/pointblank-neoforge-1.21-1.7.8.jar"
+ },
+ {
+  "v": "1.7.8",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/r6Tlhb1n/pointblank-forge-1.21-1.7.8.jar"
+ },
+ {
+  "v": "1.7.8",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/7kWrXvSW/pointblank-fabric-1.21-1.7.8.jar"
+ },
+ {
+  "v": "1.7.8",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/biYpsCuz/pointblank-fabric-1.20.1-1.7.8.jar"
+ },
+ {
+  "v": "1.7.7",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/o2WcRpYp/pointblank-fabric-1.20.1-1.7.7.jar"
+ },
+ {
+  "v": "1.7.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/1hZn4sug/pointblank-neoforge-1.21-1.7.7.jar"
+ },
+ {
+  "v": "1.7.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/U0GO3J2i/pointblank-fabric-1.21-1.7.7.jar"
+ },
+ {
+  "v": "1.7.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/4IE8nweM/pointblank-forge-1.21-1.7.7.jar"
+ },
+ {
+  "v": "1.7.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/G6eZUCEz/pointblank-neoforge-1.21-1.7.6.jar"
+ },
+ {
+  "v": "1.7.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/6iHSPvld/pointblank-fabric-1.21-1.7.6.jar"
+ },
+ {
+  "v": "1.7.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/PxVBckv1/pointblank-forge-1.21-1.7.6.jar"
+ },
+ {
+  "v": "1.7.6",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/m6YvwPBt/pointblank-fabric-1.20.1-1.7.6.jar"
+ },
+ {
+  "v": "1.7.6",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/4mpmR3We/pointblank-forge-1.20.1-1.7.6.jar"
+ },
+ {
+  "v": "1.6.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ukPfidcE/pointblank-neoforge-1.21-1.6.7.jar"
+ },
+ {
+  "v": "1.6.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/HiwllvyQ/pointblank-fabric-1.21-1.6.7.jar"
+ },
+ {
+  "v": "1.6.7",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/EPNZIi22/pointblank-forge-1.21-1.6.7.jar"
+ },
+ {
+  "v": "1.6.8",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/rDbVyh32/pointblank-fabric-1.20.1-1.6.8.jar"
+ },
+ {
+  "v": "1.6.7",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ImUZ6Nq8/pointblank-forge-1.20.1-1.6.7.jar"
+ },
+ {
+  "v": "1.6.1",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "neoforge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/zvNL7tS7/pointblank-neoforge-1.21-1.6.1.jar"
+ },
+ {
+  "v": "1.6.1",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ngBvqWhl/pointblank-fabric-1.21-1.6.1.jar"
+ },
+ {
+  "v": "1.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "fabric"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/K7LAZpeN/pointblank-fabric-1.21-1.6.jar"
+ },
+ {
+  "v": "1.6",
+  "gv": [
+   "1.21"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/t7aBmnqh/pointblank-forge-1.21-1.6.jar"
+ },
+ {
+  "v": "1.5.12",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/OUYMOmog/pointblank-1.20.1-1.5.12.jar"
+ },
+ {
+  "v": "1.5.11",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/26bbnki6/pointblank-1.20.1-1.5.11.jar"
+ },
+ {
+  "v": "1.5.10",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/ngMshzx1/pointblank-1.20.1-1.5.10.jar"
+ },
+ {
+  "v": "1.5.8",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/YZi0rxzj/pointblank-1.20.1-1.5.8.jar"
+ },
+ {
+  "v": "1.5.7",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/7VfX1Jbx/pointblank-1.20.1-1.5.7.jar"
+ },
+ {
+  "v": "1.5.6",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/muTNvdJ2/pointblank-1.20.1-1.5.6.jar"
+ },
+ {
+  "v": "1.5.5",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/wffnLidu/pointblank-1.20.1-1.5.5.jar"
+ },
+ {
+  "v": "1.4.3",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/lsV1awlR/pointblank-1.20.1-1.4.3.jar"
+ },
+ {
+  "v": "1.4.2",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/lymTZYbW/pointblank-1.20.1-1.4.2.jar"
+ },
+ {
+  "v": "1.3.3",
+  "gv": [
+   "1.20.1"
+  ],
+  "loaders": [
+   "forge"
+  ],
+  "file": "https://cdn.modrinth.com/data/og4KPYmA/versions/SDaC25v5/pointblank-1.20.1-1.3.3.jar"
+ }
+]
