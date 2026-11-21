@@ -52,7 +52,7 @@ public class PbLootNeoForge {
         static final MapCodec<ChestLoot> CODEC = MapCodec.unit(() -> new ChestLoot(new LootItemCondition[0]));
 
         ChestLoot(LootItemCondition[] conditions) {
-            super(conditions);
+            super(conditions, 0);
         }
 
         @Override
