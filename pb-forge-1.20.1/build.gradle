@@ -1,0 +1,59 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
+}
+
+version = "${mod_version}+forge-${minecraft_version}"
+group = 'com.alexgodly'
+
+base {
+    archivesName = 'point-blank-loot'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+}
+
+sourceSets {
+    main {
+        java.srcDir '../pb-common'
+        java.srcDir '../pb-v120'
+        resources.srcDir 'build/generated-data'
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.shedaniel.me/' }
+}
+
+dependencies {
+    compileOnly fg.deobf("me.shedaniel.cloth:cloth-config-forge:11.1.136")
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+}
+
+tasks.register('lootData', Exec) {
+    commandLine 'python3', '../tools/pb_data.py', '../data-src/pb-raw', 'build/generated-data', '../pb-assets/point_blank_loot_icon.png'
+}
+
+processResources {
+    dependsOn 'lootData'
+    inputs.property 'version', mod_version
+    filesMatching('META-INF/mods.toml') {
+        expand 'version': mod_version
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes(['Specification-Title': 'point_blank_loot', 'Specification-Vendor': 'Alex Godly',
+                    'Implementation-Title': 'Point Blank: Loot', 'Implementation-Version': mod_version,
+                    'Implementation-Vendor': 'Alex Godly'])
+    }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
