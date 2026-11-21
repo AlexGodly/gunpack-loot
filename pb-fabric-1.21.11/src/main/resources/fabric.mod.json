@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "point_blank_loot",
+  "version": "${version}",
+  "name": "Point Blank: Loot",
+  "description": "Guns, ammo and attachments from Point Blank and every installed gun pack in structure chests.",
+  "authors": ["Alex Godly"],
+  "contact": {"homepage": "https://modrinth.com/datapack/point-blank-loot"},
+  "license": "All-Rights-Reserved",
+  "icon": "pack.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.alexgodly.pbloot.fabric.PbLootFabric"],
+    "modmenu": ["com.alexgodly.pbloot.fabric.ModMenuIntegration"]
+  },
+  "mixins": ["point_blank_loot.mixins.json"],
+  "depends": {
+    "fabricloader": "*",
+    "fabric-api": "*",
+    "pointblank": "*"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}

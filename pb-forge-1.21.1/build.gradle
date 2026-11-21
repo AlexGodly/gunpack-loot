@@ -1,0 +1,59 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[7.0.3,8)'
+}
+
+version = "${mod_version}+forge-${minecraft_version}"
+group = 'com.alexgodly'
+
+base {
+    archivesName = 'point-blank-loot'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+}
+
+sourceSets {
+    main {
+        java.srcDir '../pb-common'
+        java.srcDir '../pb-v121'
+        resources.srcDir 'build/generated-data'
+        if (cloth_config_version == 'none') {
+            java.exclude '**/PbScreens.java', '**/ClothScreen.java'
+        }
+    }
+}
+
+repositories {
+    minecraft.mavenizer(it)
+    maven fg.forgeMaven
+    maven fg.minecraftLibsMaven
+    maven { url = 'https://maven.shedaniel.me/' }
+    mavenCentral()
+}
+
+dependencies {
+    implementation minecraft.dependency("net.minecraftforge:forge:${minecraft_version}-${forge_version}")
+    if (cloth_config_version != 'none') {
+        compileOnly("me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}") { transitive = false }
+    }
+}
+
+tasks.register('lootData', Exec) {
+    commandLine 'python3', '../tools/pb_data.py', '../data-src/pb-raw', 'build/generated-data', '../pb-assets/point_blank_loot_icon.png'
+}
+
+processResources {
+    dependsOn 'lootData'
+    inputs.property 'version', mod_version
+    filesMatching('META-INF/mods.toml') {
+        expand 'version': mod_version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

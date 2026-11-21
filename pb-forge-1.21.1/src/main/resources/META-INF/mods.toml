@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[@MAJOR@,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "point_blank_loot"
+version = "${version}"
+displayName = "Point Blank: Loot"
+authors = "Alex Godly"
+logoFile = "pack.png"
+description = '''
+Guns, ammo and attachments from Point Blank and every installed gun pack in structure chests.
+'''
+
+[[dependencies.point_blank_loot]]
+modId = "forge"
+mandatory = true
+versionRange = "[0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.point_blank_loot]]
+modId = "pointblank"
+mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.point_blank_loot]]
+modId = "cloth_config"
+mandatory = false
+versionRange = "[0,)"
+ordering = "NONE"
+side = "CLIENT"

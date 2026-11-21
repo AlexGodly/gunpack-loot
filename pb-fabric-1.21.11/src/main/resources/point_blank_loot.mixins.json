@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.alexgodly.pbloot.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["LootTableMixin"],
+  "injectors": {"defaultRequire": 1}
+}
