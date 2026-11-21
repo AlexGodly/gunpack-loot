@@ -1,0 +1,57 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - dir: tacz-forge-1.20.1
+            java: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Build
+        working-directory: ${{ matrix.dir }}
+        run: chmod +x gradlew && ./gradlew build --stacktrace
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jar-${{ matrix.dir }}
+          path: ${{ matrix.dir }}/build/libs/*.jar
+
+  publish:
+    needs: build
+    if: always()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: /tmp/jars
+          merge-multiple: true
+      - name: Push jars to the builds branch
+        run: |
+          rm -f /tmp/jars/*-sources.jar /tmp/jars/*-slim.jar /tmp/jars/*-dev.jar
+          ls -la /tmp/jars
+          git config user.name "Alex Godly"
+          git config user.email "AlexGodly@users.noreply.github.com"
+          git fetch --depth 1 origin builds && git switch -c builds-tmp FETCH_HEAD || git switch --orphan builds-tmp
+          git rm -rfq --cached . >/dev/null 2>&1 || true
+          git clean -fdxq
+          git checkout FETCH_HEAD -- . 2>/dev/null || true
+          cp /tmp/jars/*.jar .
+          git add *.jar
+          git commit -qm "Build ${GITHUB_SHA::7}" || exit 0
+          git push origin HEAD:builds

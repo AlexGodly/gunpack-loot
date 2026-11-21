@@ -1,0 +1,52 @@
+plugins {
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[6.0.24,6.2)'
+}
+
+version = "${mod_version}+forge-${minecraft_version}"
+group = 'com.alexgodly'
+
+base {
+    archivesName = 'tacz-loot'
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+}
+
+sourceSets {
+    main {
+        resources.srcDir 'build/generated-data'
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+}
+
+tasks.register('lootData', Exec) {
+    commandLine 'python3', '../tools/tacz_data.py', '../data-src/tacz-1.20.1', 'old', 'build/generated-data'
+}
+
+processResources {
+    dependsOn 'lootData'
+    inputs.property 'version', mod_version
+    filesMatching('META-INF/mods.toml') {
+        expand 'version': mod_version
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes(['Specification-Title': 'tacz_loot', 'Specification-Vendor': 'Alex Godly',
+                    'Implementation-Title': 'TACZ: Loot', 'Implementation-Version': mod_version,
+                    'Implementation-Vendor': 'Alex Godly'])
+    }
+    finalizedBy 'reobfJar'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

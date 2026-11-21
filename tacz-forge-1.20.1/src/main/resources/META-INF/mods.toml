@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "tacz_loot"
+version = "${version}"
+displayName = "TACZ: Loot"
+authors = "Alex Godly"
+logoFile = "tacz_loot_icon.png"
+description = '''
+Guns, ammo and attachments from TACZ and every installed gun pack in structure chests.
+'''
+
+[[dependencies.tacz_loot]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tacz_loot]]
+modId = "tacz"
+mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
